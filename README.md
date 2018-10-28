@@ -15,7 +15,7 @@ This is a simple C program to control the activity LED on a Dell Chromebook (Tes
 |8              |Off   |
 
 
-##How does it work?
+## How does it work?
 
 I've used https://github.com/DellSWPub/DellActivityLightSDK and https://github.com/hgeg/candy-led as reference.
 Since these were written in languages i don't know, i decided to write my own implementation in C.
@@ -30,8 +30,9 @@ The formula used for calculating CRC is :
 
 `( 21 * command[0] * command[0] + 19 * command[1] - 3 * command[3] ) % 255`
 
-##Building
+## Building
 
 Since it's only one file, i was too lazy to add a makefile. You are supposed to build it with:
 
-`cc -o *filename* main.c
+`cc -o *filename* main.c`
+
