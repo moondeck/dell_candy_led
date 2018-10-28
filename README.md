@@ -1,4 +1,4 @@
-#Dell activity LED controller
+# Dell activity LED controller
 
 This is a simple C program to control the activity LED on a Dell Chromebook (Tested on 3120, Candy)
 
